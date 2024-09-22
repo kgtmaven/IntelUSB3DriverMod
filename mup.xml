@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created With CreateMup.exe Version 25.11.2014.0925-->
+<MUPDefinition xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd mupdefinition.xsd">
+  <packageinformation>
+    <installertype>installshield installscript</installertype>
+    <packagegrouping>single_package</packagegrouping>
+    <packagingtype>zip</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <mupspecificationversion>2.4.3</mupspecificationversion>
+    <version>5.0.4.43</version>
+    <name>USB3 </name>
+    <supportedoperatingsystems>
+      <osidentifier name="Windows7" architecture="x86" />
+      <osidentifier name="Windows7" architecture="x64" />
+      <osidentifier name="W2K8R2" architecture="x64" />
+    </supportedoperatingsystems>
+    <content>
+      <Device componentID="100347">
+        <Generic>IUSB3\ROOT_HUB30</Generic>
+        <Generic>IUSB3\ROOT_HUB31</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_01</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_02</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_03</Generic>
+        <Generic>IUSB3\CLASS_09</Generic>
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\Windows7-x86\iusb3hub.inf\iusb3hub.inf</file>
+          <file>production\Windows7-x86\iusb3hub.inf\iusb3hub.cat</file>
+          <file>production\Windows7-x86\iusb3hub.inf\iusb3hub.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8CB1" />
+        <PCIInfo vendorID="8086" deviceID="8D31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A22F" />
+        <PCIInfo vendorID="8086" deviceID="A1AF" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="A2AF" />
+        <PCIInfo vendorID="8086" deviceID="0F35" />
+        <PCIInfo vendorID="8086" deviceID="22B5" />
+        <PCIInfo vendorID="8086" deviceID="15B5" />
+        <PCIInfo vendorID="8086" deviceID="15B6" />
+        <PCIInfo vendorID="8086" deviceID="15C1" />
+        <PCIInfo vendorID="8086" deviceID="15DB" />
+        <PCIInfo vendorID="8086" deviceID="15D4" />
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\Windows7-x86\iusb3xhc.inf\iusb3xhc.inf</file>
+          <file>production\Windows7-x86\iusb3xhc.inf\iusb3xhc.cat</file>
+          <file>production\Windows7-x86\iusb3xhc.inf\iusb3xhc.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <Generic>IUSB3\ROOT_HUB30</Generic>
+        <Generic>IUSB3\ROOT_HUB31</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_01</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_02</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_03</Generic>
+        <Generic>IUSB3\CLASS_09</Generic>
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\Windows7-x64\iusb3hub.inf\iusb3hub.inf</file>
+          <file>production\Windows7-x64\iusb3hub.inf\iusb3hub.cat</file>
+          <file>production\Windows7-x64\iusb3hub.inf\iusb3hub.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <Generic>IUSB3\ROOT_HUB30</Generic>
+        <Generic>IUSB3\ROOT_HUB31</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_01</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_02</Generic>
+        <Generic>IUSB3\CLASS_09&amp;SUBCLASS_00&amp;PROT_03</Generic>
+        <Generic>IUSB3\CLASS_09</Generic>
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\W2K8R2-x64\iusb3hub.inf\iusb3hub.inf</file>
+          <file>production\W2K8R2-x64\iusb3hub.inf\iusb3hub.cat</file>
+          <file>production\W2K8R2-x64\iusb3hub.inf\iusb3hub.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8CB1" />
+        <PCIInfo vendorID="8086" deviceID="8D31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A22F" />
+        <PCIInfo vendorID="8086" deviceID="A1AF" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="A2AF" />
+        <PCIInfo vendorID="8086" deviceID="0F35" />
+        <PCIInfo vendorID="8086" deviceID="22B5" />
+        <PCIInfo vendorID="8086" deviceID="15B5" />
+        <PCIInfo vendorID="8086" deviceID="15B6" />
+        <PCIInfo vendorID="8086" deviceID="15C1" />
+        <PCIInfo vendorID="8086" deviceID="15DB" />
+        <PCIInfo vendorID="8086" deviceID="15D4" />
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\Windows7-x64\iusb3xhc.inf\iusb3xhc.inf</file>
+          <file>production\Windows7-x64\iusb3xhc.inf\iusb3xhc.cat</file>
+          <file>production\Windows7-x64\iusb3xhc.inf\iusb3xhc.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8C31" />
+        <PCIInfo vendorID="8086" deviceID="8CB1" />
+        <PCIInfo vendorID="8086" deviceID="8D31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9C31" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="9CB1" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A12F" />
+        <PCIInfo vendorID="8086" deviceID="A22F" />
+        <PCIInfo vendorID="8086" deviceID="A1AF" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="9D2F" />
+        <PCIInfo vendorID="8086" deviceID="A2AF" />
+        <PCIInfo vendorID="8086" deviceID="0F35" />
+        <PCIInfo vendorID="8086" deviceID="22B5" />
+        <PCIInfo vendorID="8086" deviceID="15B5" />
+        <PCIInfo vendorID="8086" deviceID="15B6" />
+        <PCIInfo vendorID="8086" deviceID="15C1" />
+        <PCIInfo vendorID="8086" deviceID="15DB" />
+        <PCIInfo vendorID="8086" deviceID="15D4" />
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\W2K8R2-x64\iusb3xhc.inf\iusb3xhc.inf</file>
+          <file>production\W2K8R2-x64\iusb3xhc.inf\iusb3xhc.cat</file>
+          <file>production\W2K8R2-x64\iusb3xhc.inf\iusb3xhc.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <PnPInfo>
+          <PNPID>PNP</PNPID>
+          <PnPProductID>0A08</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\Windows7-x86\iusb3hcs.inf\iusb3hcs.inf</file>
+          <file>production\Windows7-x86\iusb3hcs.inf\iusb3hcs.cat</file>
+          <file>production\Windows7-x86\iusb3hcs.inf\iusb3hcs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <PnPInfo>
+          <PNPID>PNP</PNPID>
+          <PnPProductID>0A08</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\Windows7-x64\iusb3hcs.inf\iusb3hcs.inf</file>
+          <file>production\Windows7-x64\iusb3hcs.inf\iusb3hcs.cat</file>
+          <file>production\Windows7-x64\iusb3hcs.inf\iusb3hcs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100347">
+        <PnPInfo>
+          <PNPID>PNP</PNPID>
+          <PnPProductID>0A08</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="5.0.4.43">
+          <file>production\W2K8R2-x64\iusb3hcs.inf\iusb3hcs.inf</file>
+          <file>production\W2K8R2-x64\iusb3hcs.inf\iusb3hcs.cat</file>
+          <file>production\W2K8R2-x64\iusb3hcs.inf\iusb3hcs.sys</file>
+        </Image>
+      </Device>
+    </content>
+  </packageinformation>
+  <executable>
+    <executablename>setup.exe</executablename>
+  </executable>
+  <behaviors>
+    <behavior name="freshinstall">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </behavior>
+    <!--    <behavior name="driveronly">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false"></optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="applicationonly">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">nodrv</optionvalue>
+      </vendoroption>
+    </behavior>
+-->
+    <behavior name="extractdrivers">
+      <vendoroption>
+        <container>
+          <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+          <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+        </container>
+      </vendoroption>
+    </behavior>
+    <behavior name="attended" />
+    <behavior name="help">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">?</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="unattended">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+      <!-- The DUP will Restart the system
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">b</optionvalue>
+      </vendoroption>
+-->
+    </behavior>
+  </behaviors>
+  <parameters>
+    <parametermapping name="force">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </parametermapping>
+    <parametermapping name="logfile">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="true" valuedelimiter=" " enclose="&quot;">report</optionvalue>
+      </vendoroption>
+    </parametermapping>
+  </parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+      <vendorreturncode>15</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="PASSWORD_REQUIRED">
+      <vendorreturncode>2</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="NO_DOWNGRADE">
+      <!--Always able to DownGrade, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_UPDATE_PENDING">
+      <vendorreturncode>13</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+      <vendorreturncode>7</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+      <vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+      <vendorreturncode>14</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>3</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>5</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+      <vendorreturncode>1</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>6</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>9</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>10</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>11</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>12</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>16</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>19</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+  <inventorymetadata>
+    <extractdriversidentifier>
+      <pnpids>
+        <!--<!  filename: \Drivers\Win7\x86\iusb3hub.inf  ><driverversion>5.0.4.43</driverversion><!  unhandled ID IUSB3\ROOT_HUB30  ><!  unhandled ID IUSB3\ROOT_HUB31  ><!  unhandled ID IUSB3\CLASS_09&SUBCLASS_00&PROT_01  ><!  unhandled ID IUSB3\CLASS_09&SUBCLASS_00&PROT_02  ><!  unhandled ID IUSB3\CLASS_09&SUBCLASS_00&PROT_03  ><!  unhandled ID IUSB3\CLASS_09  >-->
+        <pnpdevice componentID="100347">
+          <!--filename: \Drivers\Win7\x86\iusb3xhc.inf-->
+          <driverversion>5.0.4.43</driverversion>
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8CB1" />
+          <pciinfo vendorID="8086" deviceID="8D31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A22F" />
+          <pciinfo vendorID="8086" deviceID="A1AF" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="A2AF" />
+          <pciinfo vendorID="8086" deviceID="0F35" />
+          <pciinfo vendorID="8086" deviceID="22B5" />
+          <pciinfo vendorID="8086" deviceID="15B5" />
+          <pciinfo vendorID="8086" deviceID="15B6" />
+          <pciinfo vendorID="8086" deviceID="15C1" />
+          <pciinfo vendorID="8086" deviceID="15DB" />
+          <pciinfo vendorID="8086" deviceID="15D4" />
+        </pnpdevice>
+        <!--<!  filename: \Drivers\Win7\x64\iusb3hub.inf  ><driverversion>5.0.4.43</driverversion><!  unhandled ID IUSB3\ROOT_HUB30  ><!  unhandled ID IUSB3\ROOT_HUB31  ><!  unhandled ID IUSB3\CLASS_09&SUBCLASS_00&PROT_01  ><!  unhandled ID IUSB3\CLASS_09&SUBCLASS_00&PROT_02  ><!  unhandled ID IUSB3\CLASS_09&SUBCLASS_00&PROT_03  ><!  unhandled ID IUSB3\CLASS_09  >-->
+        <pnpdevice componentID="100347">
+          <!--filename: \Drivers\Win7\x64\iusb3xhc.inf-->
+          <driverversion>5.0.4.43</driverversion>
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8C31" />
+          <pciinfo vendorID="8086" deviceID="8CB1" />
+          <pciinfo vendorID="8086" deviceID="8D31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9C31" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="9CB1" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A12F" />
+          <pciinfo vendorID="8086" deviceID="A22F" />
+          <pciinfo vendorID="8086" deviceID="A1AF" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="9D2F" />
+          <pciinfo vendorID="8086" deviceID="A2AF" />
+          <pciinfo vendorID="8086" deviceID="0F35" />
+          <pciinfo vendorID="8086" deviceID="22B5" />
+          <pciinfo vendorID="8086" deviceID="15B5" />
+          <pciinfo vendorID="8086" deviceID="15B6" />
+          <pciinfo vendorID="8086" deviceID="15C1" />
+          <pciinfo vendorID="8086" deviceID="15DB" />
+          <pciinfo vendorID="8086" deviceID="15D4" />
+        </pnpdevice>
+        <pnpdevice componentID="100347">
+          <!--filename: \Drivers\HCSwitch\x86\iusb3hcs.inf-->
+          <driverversion>5.0.4.43</driverversion>
+          <pnpidstring>
+            <PNPID>PNP</PNPID>
+            <PnPProductID>0A08</PnPProductID>
+          </pnpidstring>
+        </pnpdevice>
+        <pnpdevice componentID="100347">
+          <!--filename: \Drivers\HCSwitch\x64\iusb3hcs.inf-->
+          <driverversion>5.0.4.43</driverversion>
+          <pnpidstring>
+            <PNPID>PNP</PNPID>
+            <PnPProductID>0A08</PnPProductID>
+          </pnpidstring>
+        </pnpdevice>
+      </pnpids>
+    </extractdriversidentifier>
+    <fullpackageidentifier>
+      <msis>
+        <msi componentID="100347">
+          <identifyingnumber>{240C3DDD-C5E9-4029-9DF7-95650D040CF2}</identifyingnumber>
+          <version>5.0.4.43</version>
+          <upgradecode>{240C3DDD-C5E9-4029-9DF7-95650D040CF2}</upgradecode>
+        </msi>
+      </msis>
+    </fullpackageidentifier>
+  </inventorymetadata>
+</MUPDefinition>
